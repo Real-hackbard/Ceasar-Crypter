@@ -45,7 +45,28 @@ Plaintext:  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
 ```
 
+### Python Code Example:
+You can implement this in code (like Python or C++) by using character arithmetic and the modulo operator (%), as shown in this example formula. 
 
+```python
+def caesar_cipher(text, shift):
+    result = ""
+    for char in text:
+        if 'a' <= char <= 'z':
+            # Encrypt lowercase letters
+            start = ord('a')
+            encrypted_ord = (ord(char) - start + shift) % 26 + start
+            result += chr(encrypted_ord)
+        elif 'A' <= char <= 'Z':
+            # Encrypt uppercase letters
+            start = ord('A')
+            encrypted_ord = (ord(char) - start + shift) % 26 + start
+            result += chr(encrypted_ord)
+        else:
+            # Keep non-alphabetic characters (spaces, numbers, symbols) as is
+            result += char
+    return result
+```
 
 
 
