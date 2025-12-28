@@ -71,9 +71,9 @@ def caesar_cipher(text, shift):
 ### How it Works (Example with Key = 3):
 
 * Encryption: Shift each letter forward 3 places.
-  * A becomes D
-  * B becomes E
-  * Y becomes B (wraps around).
+  * ```A becomes D```
+  * ```B becomes E```
+  * ```Y becomes B``` (wraps around).
 
 
 
