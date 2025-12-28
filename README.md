@@ -28,9 +28,14 @@ The action of a Caesar cipher is to replace each plaintext letter with a differe
 
 </br>
 
+The transformation can be represented by aligning two alphabets; the cipher is the plain alphabet shifted left or right by a certain number of positions. For instance, here is a Caesar cipher using a left shift of three places, equivalent to a right shift of 23 (the shift parameter is used as the key):
 
+### Example:
 
-
+```
+Plain	  A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z
+Cipher	X	Y	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W
+````
 
 
 
