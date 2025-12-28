@@ -20,6 +20,14 @@ The encryption step performed by a Caesar cipher is often incorporated as part o
 
 </br>
 
+The action of a Caesar cipher is to replace each plaintext letter with a different one a fixed number of places down the alphabet. The cipher illustrated here uses a left shift of 3, so that (for example) each occurrence of E in the plaintext becomes B in the ciphertext.
+
+</br>
+
+![Example](https://github.com/user-attachments/assets/3c42fae7-44df-4544-be47-85e6832f8d53)
+
+</br>
+
 
 
 
