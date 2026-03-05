@@ -9,6 +9,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: Ceasar Crypter |
 | 1.0.x   | :white_check_mark: Caesar Procedure |
+| 1.0.x   | :white_check_mark: Caesar Shift |
 
 ## Reporting a Vulnerability
 
